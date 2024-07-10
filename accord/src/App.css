@@ -1,0 +1,57 @@
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.accord-div{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+ }
+
+.accord{
+  background-color: antiquewhite;
+  width:100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding:4px 12px;
+  justify-content: space-between;
+}
+.accord-txt{
+  width: 100%;
+  padding: 4px;
+  overflow: hidden;
+ word-break: break-all;
+
+}
+
+.wahala{
+  background-color: brown;
+  height: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  margin: 50px;
+}
+.coloDiv{
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content:center ;
+  background-color: antiquewhite;
+}
+
+.active{
+  color: #fff700
+}
+
+.inactive{
+  color: #000000
+}
