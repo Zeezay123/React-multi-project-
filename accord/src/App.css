@@ -55,3 +55,71 @@
 .inactive{
   color: #000000
 }
+.slider{
+  display: flex;
+  flex-direction: row;
+  flex: 0 1;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+   position: relative; 
+  margin-top: 40px;
+  /* background-color: #000000; */
+
+}
+.slide-child{
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+  border-radius: 16px;
+}
+
+.left-arrow, .right-arrow{
+  background-color: aliceblue;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrows{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.slide-circles{
+  position: absolute;
+  bottom: 16px;
+  display: flex;
+
+}
+.circles{
+ 
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 3.2px;
+
+
+
+}
+
+.active-circle{
+  background-color: #ffff;
+}
+
+.inactive-circle{
+ 
+  background-color: #000000;
+}

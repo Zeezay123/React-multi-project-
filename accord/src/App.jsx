@@ -3,6 +3,7 @@ import Accord from './components/Accord'
 import './App.css'
 import Hexcode from './hex/Hexcode'
 import Rating from './rating/Rating'
+import Slider from './slider/Slider'
 
 function App({handleMultselct }) {
   
@@ -23,6 +24,7 @@ function App({handleMultselct }) {
      <Accord/>
      <Hexcode/>
      <Rating/>
+     <Slider/>
     </div>
   )
 }
